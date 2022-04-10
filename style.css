@@ -1,0 +1,46 @@
+nav a {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0px 10px;
+}
+body {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: 3fr 1fr 3fr;
+    grid-template-rows: 5vh 90vh;
+    grid-gap: 1px;
+    background-image: url('images/backo.png');
+}
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+ 
+  a:hover {
+    color: black ;
+    background-color: #cfc ;
+  }
+  img {
+    grid-column: 1/2;
+    grid-row: 2;
+    align-self: center;
+    margin: 10vh;
+    border:2px solid #fff;
+    -moz-box-shadow: inset 10px 10px 50px #fff;
+    -webkit-box-shadow: inset 10px 10px 50px #fff;
+    box-shadow: inset 10px 10px 50px #fff;
+    width: 45%;
+
+  }
+  section {
+    grid-column: 1/4;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
