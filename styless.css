@@ -1,0 +1,35 @@
+body {
+    display: grid;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: 3fr 1fr 3fr;
+    grid-template-rows: 5vh 90vh;
+    grid-gap: 1px;
+    background-image: url('images/backo.png');
+}
+nav a {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0px 10px;
+}
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+ 
+  a:hover {
+    color: black ;
+    background-color: #cfc ;
+  }
+  section p {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    align-self: center;
+    margin: auto;
+    text-align: center;
+ }
+ 
