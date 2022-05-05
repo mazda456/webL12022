@@ -6,24 +6,27 @@ body {
     grid-template-rows: 5vh 90vh;
     grid-gap: 1px;
     background-image: url('images/backo.png');
+    /* this is the grid basically */
 }
 nav a {
     font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Coffee Extra';
     text-decoration: none;
     color: whitesmoke;
     margin: 0px 10px;
+    /* this is the text */
 }
 a:link {
     color: blue;
     background-color: transparent;
     text-decoration: underline;
-  }
+  } /* this is to click on home, store etc */
  
   a:hover {
     color: black ;
     background-color: #cfc ;
-  }
+  } /* when hovering on home, store etc this color appears */
+
   section p {
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -31,5 +34,27 @@ a:link {
     align-self: center;
     margin: auto;
     text-align: center;
- }
+ } /* this is the text inside the section */
+ 
+section {
+  grid-column: 1/4;
+  grid-row: 2/4;
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-gap: 20pxx;
+  grid-template-columns: 1fr 1fr;
+} /* this is a section in the page */
+
+section div {
+  border: 2.5px solid #fff;
+  -moz-box-shadow: inset 10px 10px 80px #fff;
+  -webkit-box-shadow: inset 10px 10px 80px #fff;
+  box-shadow: inset 10px 10px 80px #fff;
+  align-self: center;
+  text-align: center;
+  height: 60vh;
+} /* this is a section in the page */
+
+
  
