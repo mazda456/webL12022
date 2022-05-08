@@ -28,7 +28,7 @@ a:link {
   } /* when hovering on home, store etc this color appears */
 
   section p {
-    font-size: 50px;
+    font-size: 37px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: whitesmoke;
     align-self: center;
@@ -42,18 +42,19 @@ section {
   width: 90%;
   margin: auto;
   display: grid;
-  grid-gap: 20pxx;
-  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
 } /* this is a section in the page */
 
 section div {
   border: 2.5px solid #fff;
-  -moz-box-shadow: inset 10px 10px 80px #fff;
-  -webkit-box-shadow: inset 10px 10px 80px #fff;
-  box-shadow: inset 10px 10px 80px #fff;
+  -moz-box-shadow: inset 5px 5px 25px #fff;
+  -webkit-box-shadow: inset 5px 5px 25px #fff;
+  box-shadow: inset 5px 5px 25px #fff;
   align-self: center;
   text-align: center;
   height: 60vh;
+  grid-column: 2;
 } /* this is a section in the page */
 
 
